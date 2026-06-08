@@ -4,6 +4,6 @@
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/jsangho/cloud.jsangho.www.git
-[submodule "docs"]
-	path = docs
+[submodule "vault"]
+	path = vault
 	url = https://github.com/jsangho/cloud.jsangho.docs.git

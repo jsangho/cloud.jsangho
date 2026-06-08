@@ -1,8 +1,8 @@
-[submodule "backend"]
-	path = backend
+[submodule "sangho"]
+	path = sangho
 	url = https://github.com/jsangho/cloud.jsangho.api.git
-[submodule "frontend"]
-	path = frontend
+[submodule "www"]
+	path = www
 	url = https://github.com/jsangho/cloud.jsangho.www.git
 [submodule "vault"]
 	path = vault

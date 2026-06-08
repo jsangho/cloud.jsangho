@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    ".git": true
+  },
+  "search.exclude": {
+    "**/.git": true
+  }
+}

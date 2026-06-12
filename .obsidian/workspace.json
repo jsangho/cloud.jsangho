@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d7c4842d201b85b0",
+        "id": "0c00a7e285aedb44",
         "type": "tabs",
         "children": [
           {
-            "id": "baab07c50dd379fd",
+            "id": "1e0310437dcf00aa",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,8 +176,11 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "baab07c50dd379fd",
+  "active": "1e0310437dcf00aa",
   "lastOpenFiles": [
+    "www/README.md",
+    "sangho/apps/kayfabe/_docs/README.md",
+    "vault/그래프뷰 색상구분.md",
     "www/app/api/titanic/smith/chat/route.ts",
     "www/app/api/titanic/smith/chat",
     "www/app/api/titanic/smith",
@@ -188,8 +191,6 @@
     "sangho/apps/titanic/tests/test_korean_ai.py",
     "sangho/apps/titanic/tests/test.py",
     "sangho/test.py",
-    "sangho/pytest.ini",
-    "sangho/apps/kayfabe/_docs/README.md",
     "vault/DevOps/Backend/clean_architecture.md",
     "vault/루트.md",
     "vault/DevOps/Backend/백엔드.md",
@@ -207,7 +208,6 @@
     "sangho/apps/kayfabe/_docs/KAYFABE_ERD.md",
     "sangho/apps/titanic/_docs/TITANIC_ERD.md",
     "vault/Backend/clean_architecture.md",
-    "vault/그래프뷰 색상구분.md",
     "www/node_modules/next/dist/docs/04-community/02-rspack.md",
     "www/_claude/REACT_RULES.md",
     "vault/Backend/KAYFABE_ERD.md",

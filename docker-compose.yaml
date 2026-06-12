@@ -2,21 +2,23 @@ services:
   # ① 백엔드 서비스 (FastAPI)
   backend:
     build:
-      context: ./sangho  # sangho 폴더에 있는 Dockerfile을 사용해라
+      context: ./sangho
       dockerfile: Dockerfile
     ports:
-      - "8000:8000"  # 내 컴퓨터의 8000 포트와 컨테이너의 8000 포트 연결
+      - "8000:8000"
     env_file:
-      - ./sangho/.env  # 백엔드 환경변수 파일 연동
+      - ./sangho/.env
 
   # ② 프런트엔드 서비스 (Next.js)
   frontend:
     build:
-      context: ./www  # www 폴더에 있는 Dockerfile을 사용해라
+      context: ./www
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"  # 내 컴퓨터의 3000 포트와 컨테이너의 3000 포트 연결
+      - "3000:3000"
     env_file:
-      - ./www/.env.local # 프런트엔드 환경변수 파일 연동
+      - ./www/.env.local
+    environment:
+      INTERNAL_API_BASE_URL: http://backend:8000
     depends_on:
-      - backend  # 백엔드가 먼저 켜진 후에 프런트엔드가 켜지도록 설정
+      - backend

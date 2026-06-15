@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "8836c9fda2f2f58e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e1206f365cab241",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82fea41350e95ba9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sangho/apps/kayfabe/_docs/KAYFABE_ERD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "KAYFABE_ERD"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ad1dc6d2bb0b84ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "d704288130ede207",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af783d19eb4cc5c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "f4ea017b2114b734",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "5e4cdb4016b79001",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "edd7fb153c8c3ddf",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ca5801c1b88ba56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "beb53da58d7f2b10",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "c5926c4f6bc490ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "3966c9f48722e16a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "3dd617b835db25df",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "483a179f1878e849",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "82fea41350e95ba9",
+  "lastOpenFiles": [
+    "sangho/apps/kayfabe/adapter/inbound/api/schemas/myself_schema.py",
+    "sangho/apps/kayfabe/adapter/inbound/api/schemas/myself_schema.py.tmp.13664.66011af02236",
+    "sangho/apps/kayfabe/dependencies/championship_myself_provider.py",
+    "sangho/apps/kayfabe/dependencies/championship_myself_provider.py.tmp.13664.664fc76ef011",
+    "sangho/apps/kayfabe/dependencies/title_history_myself_provider.py",
+    "sangho/apps/kayfabe/dependencies/title_history_myself_provider.py.tmp.13664.cf264a044d38",
+    "sangho/apps/kayfabe/dependencies/championship_provider.py",
+    "sangho/apps/kayfabe/dependencies/championship_provider.py.tmp.13664.466c19c812ee",
+    "sangho/apps/kayfabe/dependencies/title_history_provider.py",
+    "sangho/apps/kayfabe/dependencies/title_history_provider.py.tmp.13664.44feaa60439f",
+    "sangho/apps/kayfabe/dependencies/records_myself_provider.py",
+    "sangho/apps/kayfabe/_docs/KAYFABE_ERD.md",
+    "sangho/apps/kayfabe/_docs/kayfabe_casting.md",
+    "www/README.md",
+    "sangho/apps/kayfabe/_docs/README.md",
+    "vault/그래프뷰 색상구분.md",
+    "vault/DevOps/Backend/clean_architecture.md",
+    "vault/루트.md",
+    "vault/DevOps/Backend/백엔드.md",
+    "vault/AGENT.md",
+    "vault/DevOps/Frontend/프론트엔드.md",
+    "vault/DevOps/Backend/KAYFABE_ERD.md",
+    "vault/DevOps/Backend/ENTITY_RULE.md",
+    "vault/DevOps/Backend/BACKEND_RULES.md",
+    "vault/DevOps/Frontend/REACT_RULES.md",
+    "vault/DevOps/Backend/INDEX.md",
+    "vault/DevOps/Frontend/INDEX.md",
+    "www/node_modules/recharts/CONTRIBUTING.md",
+    "sangho/_claude/ENTITY_RULE.md",
+    "BACKEND_RULES.md",
+    "sangho/apps/titanic/_docs/TITANIC_ERD.md",
+    "vault/Backend/clean_architecture.md",
+    "www/node_modules/next/dist/docs/04-community/02-rspack.md",
+    "www/_claude/REACT_RULES.md",
+    "vault/Backend/KAYFABE_ERD.md",
+    "vault/Backend/TITANIC_ERD.md",
+    "Pasted image 20260612121946.png",
+    "www/public/icon.svg",
+    "www/public/apple-icon.png",
+    "www/public/icon-light-32x32.png",
+    "www/public/kayfabe-mark.svg",
+    "www/public/placeholder.svg",
+    "www/public/placeholder-logo.png",
+    "www/public/placeholder-user.jpg",
+    "www/public/placeholder-logo.svg",
+    "www/public/icon-dark-32x32.png"
+  ]
+}

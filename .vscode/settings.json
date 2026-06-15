@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    ".git": true
+  },
+  "search.exclude": {
+    "**/.git": true
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "python.defaultInterpreterPath": "C:\\Users\\zsh11\\anaconda3\\envs\\venv\\python.exe"
+}

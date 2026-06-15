@@ -1,0 +1,13 @@
+from __future__ import annotations
+
+from abc import ABC, abstractmethod
+from typing import Any
+
+from titanic.app.dtos.passenger_cal_tester_dto import CalTesterQuery, CalTesterResponse
+
+
+class CalTesterRepository(ABC):
+
+    @abstractmethod
+    async def introduce_myself(self, query: CalTesterQuery) -> CalTesterResponse:
+        pass

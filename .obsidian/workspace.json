@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0c00a7e285aedb44",
+        "id": "9e1206f365cab241",
         "type": "tabs",
         "children": [
           {
-            "id": "1e0310437dcf00aa",
+            "id": "82fea41350e95ba9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "sangho/apps/kayfabe/_docs/KAYFABE_ERD.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "KAYFABE_ERD"
             }
           }
         ]
@@ -176,21 +180,24 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "1e0310437dcf00aa",
+  "active": "82fea41350e95ba9",
   "lastOpenFiles": [
+    "sangho/apps/kayfabe/adapter/inbound/api/schemas/myself_schema.py",
+    "sangho/apps/kayfabe/adapter/inbound/api/schemas/myself_schema.py.tmp.13664.66011af02236",
+    "sangho/apps/kayfabe/dependencies/championship_myself_provider.py",
+    "sangho/apps/kayfabe/dependencies/championship_myself_provider.py.tmp.13664.664fc76ef011",
+    "sangho/apps/kayfabe/dependencies/title_history_myself_provider.py",
+    "sangho/apps/kayfabe/dependencies/title_history_myself_provider.py.tmp.13664.cf264a044d38",
+    "sangho/apps/kayfabe/dependencies/championship_provider.py",
+    "sangho/apps/kayfabe/dependencies/championship_provider.py.tmp.13664.466c19c812ee",
+    "sangho/apps/kayfabe/dependencies/title_history_provider.py",
+    "sangho/apps/kayfabe/dependencies/title_history_provider.py.tmp.13664.44feaa60439f",
+    "sangho/apps/kayfabe/dependencies/records_myself_provider.py",
+    "sangho/apps/kayfabe/_docs/KAYFABE_ERD.md",
+    "sangho/apps/kayfabe/_docs/kayfabe_casting.md",
     "www/README.md",
     "sangho/apps/kayfabe/_docs/README.md",
     "vault/그래프뷰 색상구분.md",
-    "www/app/api/titanic/smith/chat/route.ts",
-    "www/app/api/titanic/smith/chat",
-    "www/app/api/titanic/smith",
-    "www/app/api/titanic",
-    "nginx/gateway.conf",
-    "nginx",
-    "sangho/apps/titanic/tests/__pycache__/test_korean_ai.cpython-313-pytest-8.4.2.pyc",
-    "sangho/apps/titanic/tests/test_korean_ai.py",
-    "sangho/apps/titanic/tests/test.py",
-    "sangho/test.py",
     "vault/DevOps/Backend/clean_architecture.md",
     "vault/루트.md",
     "vault/DevOps/Backend/백엔드.md",
@@ -205,15 +212,12 @@
     "www/node_modules/recharts/CONTRIBUTING.md",
     "sangho/_claude/ENTITY_RULE.md",
     "BACKEND_RULES.md",
-    "sangho/apps/kayfabe/_docs/KAYFABE_ERD.md",
     "sangho/apps/titanic/_docs/TITANIC_ERD.md",
     "vault/Backend/clean_architecture.md",
     "www/node_modules/next/dist/docs/04-community/02-rspack.md",
     "www/_claude/REACT_RULES.md",
     "vault/Backend/KAYFABE_ERD.md",
     "vault/Backend/TITANIC_ERD.md",
-    "sangho/apps/kayfabe/_docs/260514_케이페이브 프론트엔드 설정.md",
-    "sangho/apps/kayfabe/_docs/260506_kayfabe_flutterflow_screens.md",
     "Pasted image 20260612121946.png",
     "www/public/icon.svg",
     "www/public/apple-icon.png",

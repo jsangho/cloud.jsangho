@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2041ddb160fcadbc",
+        "id": "ab115b719033c336",
         "type": "tabs",
         "children": [
           {
-            "id": "09a9930d8335e21c",
+            "id": "2768ac1cbf4cc46a",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ]
@@ -176,33 +176,33 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "09a9930d8335e21c",
+  "active": "2768ac1cbf4cc46a",
   "lastOpenFiles": [
-    "sangho/main.py.tmp.9804.dfbbc3c3efc7",
-    "sangho/apps/kayfabe/adapter/inbound/api/v1/ple_match_pick_router.py.tmp.9804.3d35e85d38aa",
-    "sangho/apps/kayfabe/adapter/inbound/api/v1/ple_match_pick_router.py.tmp.9804.30d8bb57df1d",
-    "sangho/main.py.tmp.9804.1034912d9cf0",
-    "sangho/apps/kayfabe/adapter/inbound/api/__init__.py.tmp.9804.cfe7343f1ba1",
-    "sangho/apps/kayfabe/adapter/inbound/api/v1/title_acquisitions_router.py.tmp.9804.b965490c1154",
-    "sangho/apps/kayfabe/adapter/outbound/pg/ple_match_pick_pg_repository.py.tmp.9804.96e40aad7086",
-    "sangho/apps/kayfabe/app/use_cases/ple_match_pick_interactor.py.tmp.9804.4970662e0090",
-    "sangho/apps/titanic/adapter/inbound/api/v1/crew_smith_captain_router.py.tmp.9804.7c753ecc598f",
-    "sangho/apps/titanic/app/use_cases/crew_smith_captain_interactor.py.tmp.9804.9975a7d54b66",
-    "sangho/apps/titanic/app/ports/input/crew_smith_captain_use_case.py.tmp.9804.62801b955232",
-    "sangho/apps/kayfabe/_docs/CLAUDE.md",
+    "sangho/apps/kayfabe/dependencies/title_acquisitions_provider.py.tmp.9804.07908100f35a",
+    "sangho/apps/kayfabe/dependencies/ple_matches_provider.py.tmp.9804.a89593545c19",
     "sangho/README.md",
+    "www/_claude/REACT_RULES.md",
+    "www/README.md",
+    "sangho/apps/kayfabe/_docs/README.md",
+    "sangho/apps/kayfabe/dependencies/ple_match_pick_provider.py.tmp.9804.e773a2e4b18e",
+    "sangho/apps/kayfabe/dependencies/ple_match_pick_provider.py.tmp.9804.e899bf37d47b",
+    "sangho/apps/kayfabe/dependencies/ple_matches_provider.py.tmp.9804.6bc129058ba9",
+    "sangho/apps/kayfabe/dependencies/ple_events_provider.py.tmp.9804.9d14587c0d9e",
+    "sangho/apps/kayfabe/dependencies/title_acquisitions_provider.py.tmp.9804.25172921144a",
+    "sangho/apps/kayfabe/_docs/CLAUDE.md",
+    "www/lib/title-history-api.ts.tmp.9804.60c140af19ca",
+    "www/lib/ple-ai-stats.ts.tmp.9804.bf5e8ec86a8c",
+    "www/lib/records-api.ts.tmp.9804.12daf439ce1f",
+    "www/lib/championship-api.ts.tmp.9804.8309f9206092",
     "sangho/apps/titanic/_docs/CLAUDE.md",
     "sangho/apps/titanic/_docs/titanic-algorithm.md",
     "sangho/apps/titanic/_docs/titanic-erd.md",
     "vault/www/CLAUDE.md",
     "CLAUDE.md",
-    "www/_claude/REACT_RULES.md",
-    "www/README.md",
     "www/node_modules/next/dist/docs/01-app/01-getting-started/18-upgrading.md",
     "www/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/unauthorized.md",
     "www/node_modules/react-hook-form/README.md",
     "vault/sangho/CLAUDE.md",
-    "sangho/apps/kayfabe/_docs/README.md",
     "vault/AGENT.md",
     "sangho/apps/kayfabe/_docs/KAYFABE_ERD.md",
     "sangho/apps/kayfabe/_docs/kayfabe_casting.md",

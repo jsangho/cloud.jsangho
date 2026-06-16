@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:www/ OR path:frontend/ OR path:sangho/ OR path:backend/ OR path:vault/ OR -path:www/ -path:sangho/ -path:vault/ -path:backend/ -path:frontend/",
+  "search": "path:www/ OR path:frontend/ OR path:sangho/ OR path:backend/ OR path:vault/ OR -path:www/ -path:sangho/ -path:vault/ -path:backend/ -path:frontend/ -path:node_modules/",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -46,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6316046762907244,
+  "scale": 0.4505081176757637,
   "close": true
 }

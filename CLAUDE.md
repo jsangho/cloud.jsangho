@@ -25,7 +25,7 @@
 
 > **본 문서가 메인 규칙이다.** 충돌 시 `CLAUDE.md`가 우선한다.  
 > 그래프: `path:www/`(프론트) · `path:sangho/`(백엔드) 경로로 구분.  
-> [`.cursorrules`](.cursorrules)는 보조 참고용이다.
+> `.cursorrules`는 보조 참고용이다.
 
 [Andrej Karpathy의 LLM 코딩 관찰](https://x.com/karpathy/status/2015883857489522876)을 바탕으로, LLM이 자주 내는 코딩 실수를 줄이기 위한 행동 지침이다.
 
@@ -35,12 +35,10 @@
 
 ## 규칙 파일 링크
 
-| 경로 | 메인 (본 문서 계층) | 보조 |
-|------|---------------------|------|
-| 루트 | [`CLAUDE.md`](CLAUDE.md) | [`.cursorrules`](.cursorrules) |
-| 백엔드 | [`sangho/CLAUDE.md`](sangho/CLAUDE.md) | [`sangho/.cursorrules`](sangho/.cursorrules) |
-| 프론트 | [`www/CLAUDE.md`](www/CLAUDE.md) | [`www/.cursorrules`](www/.cursorrules) |
-| Titanic | [`titanic/_docs/CLAUDE.md`](sangho/apps/titanic/_docs/CLAUDE.md) | [`titanic/_docs/.cursorrules`](sangho/apps/titanic/_docs/.cursorrules) |
+| 경로 | 메인 |
+|------|------|
+| 백엔드 | [`sangho/CLAUDE.md`](sangho/CLAUDE.md) |
+| 프론트 | [`www/CLAUDE.md`](www/CLAUDE.md) |
 
 ---
 
@@ -84,6 +82,6 @@
 
 | 문서 | 역할 |
 |------|------|
-| [`CLAUDE.md`](CLAUDE.md) | **메인** — 아키텍처·코딩 행동 규칙 |
-| [`.cursorrules`](.cursorrules) | **보조** — 하네스·vault |
-| [`agent.md`](agent.md) | useState 객체 압축 등 |
+| `CLAUDE.md` | **메인** — 아키텍처·코딩 행동 규칙 |
+| `.cursorrules` | **보조** — 하네스·vault |
+| `agent.md` | useState 객체 압축 등 |

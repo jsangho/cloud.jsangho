@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ab115b719033c336",
+        "id": "3174904c4abf2ba1",
         "type": "tabs",
         "children": [
           {
-            "id": "2768ac1cbf4cc46a",
+            "id": "d7d34fc47a067a13",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -176,25 +176,24 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "2768ac1cbf4cc46a",
+  "active": "d7d34fc47a067a13",
   "lastOpenFiles": [
-    "sangho/apps/kayfabe/dependencies/title_acquisitions_provider.py.tmp.9804.07908100f35a",
-    "sangho/apps/kayfabe/dependencies/ple_matches_provider.py.tmp.9804.a89593545c19",
+    "sangho/apps/titanic/_docs/CLAUDE.md",
+    "sangho/apps/titanic/app/use_cases/passenger_jack_trainer_interactor.py.tmp.13132.8934583dbb4f",
+    "sangho/apps/titanic/app/use_cases/passenger_jack_trainer_interactor.py.tmp.13132.fa4ef641a8c6",
+    "sangho/apps/titanic/app/use_cases/passenger_jack_trainer_interactor.py.tmp.13132.575722853348",
+    "sangho/apps/titanic/app/use_cases/crew_andrews_architect_interactor.py.tmp.13132.35914524b21b",
+    "sangho/apps/titanic/app/constants",
+    "sangho/apps/titanic/dependencies/crew_andrews_architect_provider.py.tmp.13132.c016b68c7680",
+    "sangho/apps/titanic/dependencies/passenger_ruth_validation_provider.py.tmp.13132.ae577d4df559",
+    "sangho/apps/titanic/dependencies/passenger_rose_model_provider.py.tmp.13132.3200e70d6680",
+    "sangho/apps/titanic/dependencies/passenger_molly_scaler_provider.py.tmp.13132.2ec674e1b7f4",
+    "sangho/apps/titanic/dependencies/passenger_jack_trainer_provider.py.tmp.13132.a1295b5f7929",
     "sangho/README.md",
     "www/_claude/REACT_RULES.md",
     "www/README.md",
     "sangho/apps/kayfabe/_docs/README.md",
-    "sangho/apps/kayfabe/dependencies/ple_match_pick_provider.py.tmp.9804.e773a2e4b18e",
-    "sangho/apps/kayfabe/dependencies/ple_match_pick_provider.py.tmp.9804.e899bf37d47b",
-    "sangho/apps/kayfabe/dependencies/ple_matches_provider.py.tmp.9804.6bc129058ba9",
-    "sangho/apps/kayfabe/dependencies/ple_events_provider.py.tmp.9804.9d14587c0d9e",
-    "sangho/apps/kayfabe/dependencies/title_acquisitions_provider.py.tmp.9804.25172921144a",
     "sangho/apps/kayfabe/_docs/CLAUDE.md",
-    "www/lib/title-history-api.ts.tmp.9804.60c140af19ca",
-    "www/lib/ple-ai-stats.ts.tmp.9804.bf5e8ec86a8c",
-    "www/lib/records-api.ts.tmp.9804.12daf439ce1f",
-    "www/lib/championship-api.ts.tmp.9804.8309f9206092",
-    "sangho/apps/titanic/_docs/CLAUDE.md",
     "sangho/apps/titanic/_docs/titanic-algorithm.md",
     "sangho/apps/titanic/_docs/titanic-erd.md",
     "vault/www/CLAUDE.md",

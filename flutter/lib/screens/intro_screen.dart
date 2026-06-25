@@ -23,8 +23,10 @@ class _IntroScreenState extends State<IntroScreen>
   @override
   void initState() {
     super.initState();
-    _ctrl = AnimationController(vsync: this, duration: const Duration(milliseconds: 900))
-      ..forward();
+    _ctrl = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 900),
+    )..forward();
     _fade = CurvedAnimation(parent: _ctrl, curve: Curves.easeOut);
   }
 
@@ -42,9 +44,27 @@ class _IntroScreenState extends State<IntroScreen>
         fit: StackFit.expand,
         children: [
           // 상단 레드 글로우 (wwe-arena-shell 배경 재현)
-          _Glow(alignment: Alignment.topCenter, wFactor: 1.1, hFactor: 0.55, color: const Color(0xFFE02020), opacity: 0.22),
-          _Glow(alignment: const Alignment(0, -0.55), wFactor: 0.75, hFactor: 0.4, color: const Color(0xFFE02020), opacity: 0.10),
-          _Glow(alignment: const Alignment(-1.6, 1.6), wFactor: 0.55, hFactor: 0.35, color: const Color(0xFF781414), opacity: 0.12),
+          const _Glow(
+            alignment: Alignment.topCenter,
+            wFactor: 1.1,
+            hFactor: 0.55,
+            color: Color(0xFFE02020),
+            opacity: 0.22,
+          ),
+          const _Glow(
+            alignment: Alignment(0, -0.55),
+            wFactor: 0.75,
+            hFactor: 0.4,
+            color: Color(0xFFE02020),
+            opacity: 0.10,
+          ),
+          const _Glow(
+            alignment: Alignment(-1.6, 1.6),
+            wFactor: 0.55,
+            hFactor: 0.35,
+            color: Color(0xFF781414),
+            opacity: 0.12,
+          ),
           // 하단 비네팅
           const Positioned.fill(
             child: DecoratedBox(
@@ -62,16 +82,16 @@ class _IntroScreenState extends State<IntroScreen>
           SafeArea(
             child: FadeTransition(
               opacity: _fade,
-              child: Column(
+              child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  const Spacer(),
-                  const _HeroSection(),
-                  const Spacer(flex: 2),
-                  const _FeatureChips(),
-                  const SizedBox(height: 24),
-                  const _CtaSection(),
-                  const SizedBox(height: 36),
+                  Spacer(),
+                  _HeroSection(),
+                  Spacer(flex: 2),
+                  _FeatureChips(),
+                  SizedBox(height: 24),
+                  _CtaSection(),
+                  SizedBox(height: 36),
                 ],
               ),
             ),
@@ -113,10 +133,7 @@ class _Glow extends StatelessWidget {
             child: DecoratedBox(
               decoration: BoxDecoration(
                 gradient: RadialGradient(
-                  colors: [
-                    Color.fromARGB(alpha, r, g, b),
-                    Colors.transparent,
-                  ],
+                  colors: [Color.fromARGB(alpha, r, g, b), Colors.transparent],
                 ),
               ),
             ),
@@ -194,16 +211,15 @@ class _HeroSection extends StatelessWidget {
           RichText(
             textAlign: TextAlign.center,
             text: const TextSpan(
-              style: TextStyle(
-                fontSize: 15,
-                color: _kStone400,
-                height: 1.65,
-              ),
+              style: TextStyle(fontSize: 15, color: _kStone400, height: 1.65),
               children: [
                 TextSpan(text: '경기 결과를 예측하고 점수를 쌓아 '),
                 TextSpan(
                   text: '2026',
-                  style: TextStyle(color: _kStone50, fontWeight: FontWeight.w700),
+                  style: TextStyle(
+                    color: _kStone50,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
                 TextSpan(text: '년의\n'),
                 TextSpan(

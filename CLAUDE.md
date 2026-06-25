@@ -15,10 +15,10 @@
 - **DDD**: 바운디드 컨텍스트·애그리거트·도메인 이벤트를 명시적으로 모델링한다. 유비쿼터스 언어를 코드에 반영한다.
 
 ### 0-3. 경로 규칙 (Path Convention)
-- `sangho/apps/<앱명>/` 내부를 작업할 때, 패키지 경로는 **`jsangho`와 `apps`를 생략**하고 앱명부터 시작한다.
-  - 예: `sangho/apps/titanic/domain/...` → 경로 표기는 `titanic.domain....`
+- `fastapi/apps/<앱명>/` 내부를 작업할 때, 패키지 경로는 **`jsangho`와 `apps`를 생략**하고 앱명부터 시작한다.
+  - 예: `fastapi/apps/titanic/domain/...` → 경로 표기는 `titanic.domain....`
 - **core 패키지** 경로는 반드시 `jsangho.core.` 로 시작한다.
-  - 예: `sangho/core/shared/...` → `jsangho.core.shared....`
+  - 예: `fastapi/core/shared/...` → `jsangho.core.shared....`
 - 경로 표기가 위 규칙과 어긋나면 코드를 작성하기 전에 멈추고 사용자에게 확인한다.
 
 ### 0-4. 문서(MD) 위치 규칙 (Docs Placement)
@@ -28,9 +28,9 @@
 | 위치 | 대상 |
 |------|------|
 | `_docs/` | 프로젝트 전체에 걸친 공통 문서 (설정, 운영, 온보딩 등) |
-| `sangho/_docs/` | 백엔드 전용 문서 (API 설계, DB 스키마, 아키텍처 등) |
+| `fastapi/_docs/` | 백엔드 전용 문서 (API 설계, DB 스키마, 아키텍처 등) |
 | `www/_docs/` | 프론트엔드 전용 문서 (컴포넌트, 라우팅, 상태 관리 등) |
-| `jsh_flutter/_docs/` | Flutter 전용 문서 (위젯, 상태, 플랫폼 설정 등) |
+| `flutter/_docs/` | Flutter 전용 문서 (위젯, 상태, 플랫폼 설정 등) |
 
 - 특정 스택에 귀속되지 않는 문서는 `_docs/`에 넣는다.
 - MD 파일을 루트나 각 앱 루트에 직접 두지 않는다 (`CLAUDE.md` · `agent.md` 같은 LLM 지침 파일 제외).
@@ -38,7 +38,7 @@
 ---
 
 > **본 문서가 메인 규칙이다.** 충돌 시 `CLAUDE.md`가 우선한다.  
-> 그래프: `path:www/`(프론트) · `path:sangho/`(백엔드) 경로로 구분.  
+> 그래프: `path:www/`(프론트) · `path:fastapi/`(백엔드) 경로로 구분.  
 > `.cursorrules`는 보조 참고용이다.
 
 [Andrej Karpathy의 LLM 코딩 관찰](https://x.com/karpathy/status/2015883857489522876)을 바탕으로, LLM이 자주 내는 코딩 실수를 줄이기 위한 행동 지침이다.
@@ -51,7 +51,7 @@
 
 | 경로 | 메인 |
 |------|------|
-| 백엔드 | [`sangho/CLAUDE.md`](sangho/CLAUDE.md) |
+| 백엔드 | [`fastapi/CLAUDE.md`](fastapi/CLAUDE.md) |
 | 프론트 | [`www/CLAUDE.md`](www/CLAUDE.md) |
 
 ---
@@ -89,6 +89,46 @@
 - 모호한 일을 검증 가능한 목표로 바꾼다.
 - 다단계 작업이면 단계별 검증 지점을 적는다.
 - “작동하게 만들기”는 완료 기준이 아니다.
+
+---
+
+## 5. 하네스 강제 실행 (Harness Gates)
+
+> 코드 작성 후 반드시 실행한다. 에러는 무시하지 않고 수정 후 완료 보고한다.
+
+### Flutter 작업 후
+
+```bash
+dart analyze          # 린트 (avoid_print 위반 시 에러)
+dart format .         # 포매팅
+```
+
+### Python 작업 후
+
+```bash
+ruff check fastapi/ --config fastapi/pyproject.toml --fix
+ruff format fastapi/ --config fastapi/pyproject.toml
+cd fastapi && lint-imports   # 스타 토폴로지 계약 검증
+```
+
+### Next.js 작업 후
+
+```bash
+cd www && pnpm lint        # ESLint (no-console, no-explicit-any 위반 시 에러)
+cd www && pnpm type-check  # TypeScript strict 검사
+cd www && pnpm format      # Prettier
+```
+
+### 전체 게이트 (pre-commit)
+
+```bash
+# 최초 1회만
+pip install pre-commit
+pre-commit install
+
+# 이후 커밋 시 자동 실행 — 수동 전체 실행:
+pre-commit run --all-files
+```
 
 ---
 

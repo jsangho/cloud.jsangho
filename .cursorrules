@@ -14,11 +14,11 @@
 | 경로 | 역할 | 보조 |
 |------|------|------|
 | [`.cursorrules`](.cursorrules) (루트) | 하네스·우선순위·공통 행동 요약 | [`CLAUDE.md`](CLAUDE.md) |
-| [`sangho/.cursorrules`](sangho/.cursorrules) | 백엔드(FastAPI) | [`sangho/CLAUDE.md`](sangho/CLAUDE.md) |
+| [`fastapi/.cursorrules`](fastapi/.cursorrules) | 백엔드(FastAPI) | [`fastapi/CLAUDE.md`](fastapi/CLAUDE.md) |
 | [`www/.cursorrules`](www/.cursorrules) | 프론트엔드(Next.js) | [`www/CLAUDE.md`](www/CLAUDE.md) |
-| [`sangho/apps/titanic/_docs/.cursorrules`](sangho/apps/titanic/_docs/.cursorrules) | Titanic 앱 (시블링 템플릿) | [`titanic/_docs/CLAUDE.md`](sangho/apps/titanic/_docs/CLAUDE.md) |
+| [`fastapi/apps/titanic/_docs/.cursorrules`](fastapi/apps/titanic/_docs/.cursorrules) | Titanic 앱 (시블링 템플릿) | [`titanic/_docs/CLAUDE.md`](fastapi/apps/titanic/_docs/CLAUDE.md) |
 
-`sangho/apps/` 아래 **kayfabe**, **friday13th** 등 앱이 늘면 각 `apps/<app>/_docs/.cursorrules`를 형제(sibling)로 추가한다.  
+`fastapi/apps/` 아래 **kayfabe**, **friday13th** 등 앱이 늘면 각 `apps/<app>/_docs/.cursorrules`를 형제(sibling)로 추가한다.  
 `CLAUDE.md`는 같은 경로에 두되 **항상 `.cursorrules`를 먼저** Read한다.
 
 ---
@@ -28,9 +28,9 @@
 코드를 **작성·수정·리팩터링하기 전에** 아래를 수행한다. 생략하지 않는다.
 
 1. **작업 디렉터리에 맞는 `.cursorrules`를 Read한다.** (필수)
-   - `sangho/` → [`sangho/.cursorrules`](sangho/.cursorrules)
+   - `fastapi/` → [`fastapi/.cursorrules`](fastapi/.cursorrules)
    - `www/` → [`www/.cursorrules`](www/.cursorrules)
-   - `sangho/apps/titanic/` → [titanic `.cursorrules`](sangho/apps/titanic/_docs/.cursorrules)
+   - `fastapi/apps/titanic/` → [titanic `.cursorrules`](fastapi/apps/titanic/_docs/.cursorrules)
 2. **해당 `.cursorrules`가 가리키는 `vault/` 업무 MD를 Read한다.** (`vault/` = docs 서브모듈)
 3. **규칙에 맞춰 구현한다** — `vault/`·`.cursorrules`에 없는 패턴을 추측으로 도입하지 않는다.
 4. 행동 원칙이 헷갈리면 같은 경로의 [`CLAUDE.md`](CLAUDE.md) 보조 문서를 Read한다.
@@ -88,7 +88,7 @@ Karpathy 원문 전체 → 보조 [`CLAUDE.md`](CLAUDE.md) §1–4
 
 - 코드를 바꾸기 전에 **§0 `.cursorrules`**와 관련 소스 파일을 읽거나 검색해 저장소 맥락에 맞춘다.
 - 사용자가 “실행해 달라”고 하거나 검증이 필요하면 터미널·도구로 직접 확인한다. 추측으로 끝내지 않는다.
-- Docker: 루트 [`docker-compose.yaml`](docker-compose.yaml) — `backend`(sangho), `frontend`(www).
+- Docker: 루트 [`docker-compose.yaml`](docker-compose.yaml) — `backend`(fastapi), `frontend`(www).
 
 ## 문서 중복
 

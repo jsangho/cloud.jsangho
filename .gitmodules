@@ -1,5 +1,5 @@
-[submodule "sangho"]
-	path = sangho
+[submodule "fastapi"]
+	path = fastapi
 	url = https://github.com/jsangho/cloud.jsangho.api.git
 [submodule "www"]
 	path = www
